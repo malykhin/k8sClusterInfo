@@ -1,0 +1,15 @@
+html
+    head
+        title="Maui cluster info"
+        link(rel='stylesheet' href='/static/index.css')
+    body
+        div.container
+            each item,index in info
+                div.namespace
+                    if item[0].deployment
+                        h1= namespaces[index]
+                        div.block
+                            each data in item
+                                div.info
+                                    div.deployment= data.deployment
+                                    div.image= data.image
