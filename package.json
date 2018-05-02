@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/malykhin/k8sClusterInfo.git",
+    "url": "https://github.com/malykhin/k8sClusterInfo.git"
   },
   "scripts": {
     "start": "node NODE_ENV=production index.js",
